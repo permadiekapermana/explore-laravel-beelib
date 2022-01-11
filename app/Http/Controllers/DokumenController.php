@@ -8,6 +8,6 @@ class DokumenController extends Controller
 {
     //
     public function PeraturanDaerah(){
-        return view('PeraturanDaerah', ["title" => 'Peraturan Daerah']);
+        return view('PeraturanDaerah', ["title" => 'Dokumen']);
     }
 }
