@@ -18,22 +18,15 @@ Route::get('/', function () {
 });
 
 // route profil
-Route::get('/profil/selayang-pandang', function() {
-    return view('SelayangPandang', ["title" => 'Profil']);
-});
-Route::get('/profil/visi-misi', function() {
-    return view('VisiMisi', ["title" => 'Profil']);
-});
-Route::get('/profil/struktur-organisasi', function() {
-    return view('StrukturOrganisasi', ["title" => 'Profil']);
-});
+Route::get('/profil/selayang-pandang', 'ProfilController@SelayangPandang');
+Route::get('/profil/visi-misi', 'ProfilController@VisiMisi');
+Route::get('/profil/struktur-organisasi', 'ProfilController@StrukturOrganisasi');
 
 // route kontak
-Route::get('/kontak', function() {
-    return view('Kontak', ["title" => 'Kontak']);
-});
+Route::get('/kontak', 'KontakController@Kontak');
 
 // route galeri
-Route::get('/galeri', function() {
-    return view('Galeri', ["title" => 'Galeri']);
-});
+Route::get('/galeri', 'GaleriController@Galeri');
+
+// route dokumen
+Route::get('/dokumen/peraturan-daerah', 'DokumenController@PeraturanDaerah');

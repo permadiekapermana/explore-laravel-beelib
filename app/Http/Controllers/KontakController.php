@@ -8,6 +8,6 @@ class KontakController extends Controller
 {
     //
     public function Kontak(){
-		return view('Kontak');
-	}
+      return view('Kontak', ["title" => 'Kontak']);
+    }
 }

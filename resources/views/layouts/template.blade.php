@@ -33,7 +33,7 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Dokumen Hukum</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">Peraturan Daerah</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/dokumen/peraturan-daerah">Peraturan Daerah</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#">Peraturan Gubernur</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#">Peraturan DPRD</a></li>
                 </ul>
@@ -136,7 +136,7 @@
       <!-- /.navbar -->
       
     </header>
-    <!-- /header -->
+    <!-- /header -->    
     <!-- start main content -->
     <section class="content">
         @yield('content')

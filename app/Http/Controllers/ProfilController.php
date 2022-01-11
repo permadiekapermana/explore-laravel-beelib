@@ -8,14 +8,14 @@ class ProfilController extends Controller
 {
     //
     public function SelayangPandang(){
-		return view('SelayangPandang');
+		return view('SelayangPandang', ["title" => 'Profil']);
 	}
  
 	public function VisiMisi(){
-		return view('VisiMisi');
+		return view('VisiMisi', ["title" => 'Profil']);
 	}
  
 	public function StrukturOrganisasi(){
-		return view('StrukturOrganisasi');
+		return view('StrukturOrganisasi', ["title" => 'Profil']);
 	}
 }
